@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Food-Inventory-Insert</title>
+		<style>
+		.main{
+	color:white;
+	background: url(bg_6.jpg) top right no-repeat;
+    background-size: cover;
+	text-align:center;
+	}
+	.forms{
+	font-family: "Lucida Console", Courier, monospace;
+	text-align:center;
+	font-size:25px;
+	
+	}
+		</style>
+    </head>
+    <body>
+  <div class="main"> 
+  <h1 style="text-align:center; font-family:fangsong; font-size:50px; "><br>FOOD-INVENTORY INSERT<br></h1>
+      <div>
+        <div >
+		  <br>
+        <form class="forms" action="InventoryInserted.php" method="POST">
+			<label>Food ID</label>
+            <input type="text" name="id"><br><br>
+            <label>Food Brand</label>
+            <input type="text" name="brand"><br><br>
+            <label>Food Type</label>
+            <input type="text" name="type"><br><br>
+			<label>Food Price</label>
+            <input type="text" name="price"><br><br>
+            <input type="reset">
+            <input type="submit" value="Insert">
+        </form>
+		<br>
+          </div>
+        </div>
+				  <br><br><br><br><br><br><br><br>
+      </div>
+	</div>
+  </body>
+    </body>
+</html>

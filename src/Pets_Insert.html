@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pets-Insert</title>
+		<style>
+		.main{
+	color:white;
+	background: url(bg_6.jpg) top right no-repeat;
+    background-size: cover;
+	text-align:center;
+	}
+	.forms{
+	font-family: "Lucida Console", Courier, monospace;
+	text-align:center;
+	font-size:25px;
+	
+	}
+		</style>
+    </head>
+    <body>
+  <div class="main"> 
+  <h1 style="text-align:center; font-family:fangsong; font-size:50px; "><br>PETS INSERT<br></h1>
+      <div>
+        <div >
+		  <br>
+        <form class="forms" action="PetsInserted.php" method="POST">
+			<label>Pet ID</label>
+            <input type="text" name="id"><br>
+            <label>Pet Type</label>
+            <input type="text" name="type"><br>
+            <label>Pet Breed</label>
+            <input type="text" name="breed"><br>
+            <label>Pet Color</label>
+            <input type="text" name="color"><br>
+            <label>Pet Age</label>
+            <input type="text" name="age"><br>
+			<label>Pet Price</label>
+            <input type="text" name="price"><br>
+            <input type="reset">
+            <input type="submit">
+        </form>
+    <br>
+          </div>
+        </div>
+				  <br><br><br><br><br><br><br><br>
+      </div>
+  </body>
+</html>
